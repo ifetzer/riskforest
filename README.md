@@ -4,6 +4,8 @@
 
 Scientific project webpage for the RISKFOREST research project.
 
+Funded by the [Marianne and Marcus Wallenberg Foundation](https://mmw.wallenberg.org/en/13-research-projects-forestry-relevance) · [Project page](https://mmw.wallenberg.org/en/project/how-strengthen-resilience-forest-management)
+
 ## Live site
 
 The webpage will be hosted on **GitHub Pages** (after enabling): https://ifetzer.github.io/riskforest/
@@ -49,10 +51,10 @@ Open http://localhost:8080
    - Go to **Settings → Pages**  
    - Source: **Deploy from a branch**  
    - Branch: `main`  
-   - Folder: **/docs**  
+   - Folder: **/ (root)** or **/docs** (both work)  
    - Save
 
-4. The site will be live at: **https://ifetzer.github.io/riskforest/**
+4. The site will be live at: **https://ifetzer.github.io/riskforest/** (may take 1–2 minutes after first deploy)
 
 ## Partners
 
