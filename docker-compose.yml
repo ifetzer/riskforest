@@ -1,0 +1,9 @@
+services:
+  riskforest-web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: riskforest-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped

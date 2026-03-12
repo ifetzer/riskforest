@@ -1,0 +1,12 @@
+# Large binary files
+*.pdf
+*.pptx
+*.odp
+*.docx
+
+# Draft and temp files
+draft/
+
+# OS files
+.DS_Store
+Thumbs.db
