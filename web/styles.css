@@ -66,13 +66,11 @@ h1, h2, h3, h4 {
 
 .logo {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--color-cream);
     text-decoration: none;
-    letter-spacing: 0.02em;
-    max-width: 320px;
-    line-height: 1.2;
+    letter-spacing: 0.05em;
 }
 
 .nav-links {
@@ -196,6 +194,31 @@ h1, h2, h3, h4 {
 .cta-button:hover {
     background: var(--color-moss);
     transform: translateY(-2px);
+}
+
+.hero-funding {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: var(--color-cream);
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0.95;
+}
+
+.hero-funding strong {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.hero-funding:hover {
+    opacity: 1;
+}
+
+.hero-funding:hover strong {
+    color: var(--color-sage);
 }
 
 /* Sections */
