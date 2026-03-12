@@ -173,11 +173,16 @@ h1, h2, h3, h4 {
 }
 
 .hero-subtitle {
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    color: rgba(245, 243, 238, 0.95);
-    font-weight: 300;
+    font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+    color: rgba(245, 243, 238, 0.98);
+    font-weight: 500;
     margin-bottom: 2rem;
     line-height: 1.5;
+}
+
+.hero-subtitle em {
+    font-style: italic;
+    font-weight: 500;
 }
 
 .cta-button {
@@ -203,7 +208,7 @@ h1, h2, h3, h4 {
     transform: translateX(-50%);
     z-index: 2;
     color: var(--color-cream);
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     text-decoration: none;
     opacity: 0.95;
 }
