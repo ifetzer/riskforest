@@ -66,11 +66,13 @@ h1, h2, h3, h4 {
 
 .logo {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--color-cream);
     text-decoration: none;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
+    max-width: 280px;
+    line-height: 1.2;
 }
 
 .nav-links {
